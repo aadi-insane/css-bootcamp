@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.responsive-box {
+  background-color: #03A9F4;
+  color: white;
+  padding: 30px;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+/* Tablets and below */
+@media (max-width: 768px) {
+  .responsive-box {
+    background-color: #FF9800;
+    font-size: 20px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .responsive-box {
+    background-color: #E91E63;
+    font-size: 16px;
+    padding: 20px;
+  }
+}

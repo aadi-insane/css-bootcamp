@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    text-align: center;
+    background: #f0f0f5;
+}
+h1::before{
+    content: "🔥 ";
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.input-field {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #007BFF;
+    background-color: #e3f2fd;
+}
+
+.list li:nth-child(odd){
+    font-style: italic;
+}
+
+.list li:first-child {
+    color: green;
+    font-weight: bold;
+}
+
+.list li:last-child {
+    color: red;
+}
+
+.list li:nth-child(2n) {
+    background-color: #f8f9fa;
+}
+
+.quote::first-letter {
+    font-size: 200%;
+    color: #673AB7;
+    font-weight: bold;
+}
+
+.quote::first-line {
+    text-decoration: underline;
+}
+
+.quote::after {
+    content: " ✨";
+    color: gold;
+}
