@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.sans {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  word-spacing: 5px;
+  color: #444;
+}
+
+.transform {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+  color: #444;
+}
+
+.shadow {
+  font-size: 22px;
+  color: #222;
+  text-shadow: 2px 2px 7px rgb(217, 255, 0);
+}
+
+.overflow-text {
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}

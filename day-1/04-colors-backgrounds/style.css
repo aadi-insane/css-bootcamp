@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+section {
+  margin: 20px auto;
+  padding: 30px;
+  width: 80%;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Color examples */
+.named {
+  background-color: tomato;
+}
+.hex {
+  background-color: #4CAF50;
+}
+.rgb {
+  background-color: rgb(30, 144, 255);
+}
+.rgba {
+  background-color: rgba(255, 99, 71, 0.5);
+  color: black;
+}
+.hsl {
+  background-color: hsl(300, 70%, 40%);
+}
+.hsla {
+  background-color: hsla(250, 30%, 60%, 0.5);
+  color: brown;
+}
+
+/* Background Image */
+.image-bg {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/040/890/255/non_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Multiple Backgrounds */
+.multi-bg {
+  background: 
+    url('https://www.transparenttextures.com/patterns/asfalt-dark.png'),
+    linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 40px;
+}
+
+.box {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #007BFF;
+  background-color: #E0F7FA;
+  border-radius: 10px;
+}
+
+.outline-box {
+  width: 300px;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #FFECB3;
+  outline: 3px dashed #F44336;
+}
