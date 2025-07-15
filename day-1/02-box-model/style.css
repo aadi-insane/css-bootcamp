@@ -1,0 +1,13 @@
+body {
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #4CAF50;
+  margin: 30px;
+  background: #e0f7fa;
+  box-sizing: content-box; /* Try changing to border-box */
+}
