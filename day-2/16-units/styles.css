@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  background: #f0f0f0;
+}
+/* 
+div {
+  margin: 15px auto;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  width: 80%;
+} */
+
+.box-px {
+  background: #2196F3;
+  width: 300px;
+}
+
+.box-percent {
+  background: #4CAF50;
+  width: 60%;
+}
+
+.box-rem {
+  background: #9C27B0;
+  font-size: 2rem;
+}
+
+.box-em {
+  background: #FF9800;
+  font-size: 1.5em;
+}
+
+.box-vh-vw {
+  background: #E91E63;
+  height: 20vh;
+  width: 60vw;
+}
